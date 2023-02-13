@@ -10,7 +10,7 @@ const management = new auth0.ManagementClient({
   domain: process.env.DOMAIN,
   clientId: process.env.CLIENTID,
   clientSecret: process.env.CLIENTSECRET,
-  token: process.env.TOKEN,
+  token: process.env.TOKEN ,
   scope: "read:users",
 });
 
